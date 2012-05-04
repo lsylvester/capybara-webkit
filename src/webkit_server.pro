@@ -77,7 +77,7 @@ SOURCES = \
   PageLoadingCommand.cpp \
 
 RESOURCES = webkit_server.qrc
-QT += network webkit
+QT += core network webkit
 CONFIG += console
 CONFIG -= app_bundle
 
